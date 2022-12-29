@@ -1,0 +1,193 @@
+.banner-hero {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: max(100vh, 800px);
+  background-image: url("./about\ \(1\).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 170px;
+  gap: 20px;
+}
+.banner-hero a {
+  text-transform: uppercase;
+  color: black;
+  font-size: 60px;
+  background-color: white;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.vid-slider {
+  padding: 60px 20px;
+  border: none;
+}
+.vid-wrapper {
+  width: 100%;
+  max-height: 800px;
+  height: 100%;
+  max-width: 1500px;
+  padding-inline: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.vid-wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.about-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 100px 20px;
+  gap: 20px;
+  text-align: center;
+}
+.about-hero h2 {
+  color: red;
+  font-size: 60px;
+}
+.about-hero p {
+  color: white;
+  font-size: 30px;
+}
+.why p {
+  max-width: 1200px;
+}
+.why form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 700px;
+  gap: 20px;
+}
+.why form input {
+  width: 100%;
+  padding: 10px;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+}
+.why form button {
+  width: 100%;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 10px;
+  height: 40px;
+  font-size: 20px;
+}
+.why form input::placeholder {
+  color: white;
+}
+.about-hero h3 {
+  color: white;
+  font-size: 35px;
+}
+.about-hero .row {
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.about-hero .row:last-child img {
+  max-width: 100%;
+}
+.product-card {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  height: 690px;
+  gap: 20px;
+  color: black !important;
+}
+.product-card h1,
+.product-card p {
+  color: black !important;
+  line-height: 1;
+  margin: 0px;
+  padding-inline: 10px;
+}
+.title {
+  font-size: 26px;
+}
+.product-card p {
+  font-size: 20px;
+  margin: 10px 0px;
+}
+.product-card .row {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+.product-card img {
+  width: 100%;
+  height: 400px;
+  object-fit: fill;
+}
+.team-hero .team-box {
+  padding-bottom: 20px;
+  width: 100%;
+  height: 720px;
+  gap: 10px;
+  background-color: white;
+}
+.team-hero .team-box p {
+  margin: 0px;
+  color: black;
+  line-height: 1;
+  font-size: 20px;
+  padding-inline: 10px;
+}
+.fixed-bottom-what {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: inline-block;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.fixed-bottom-what a {
+  padding: 1px;
+  font-size: 30px;
+  color: white;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
+@media screen and (max-width: 675px) {
+  .banner-hero a {
+    font-size: 40px;
+  }
+  .about-hero h3,
+  .about-hero p {
+    font-size: 25px;
+  }
+}

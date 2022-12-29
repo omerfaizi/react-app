@@ -1,0 +1,137 @@
+.logo {
+  width: 200px;
+  height: 60px;
+}
+.wrapper {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa !important;
+}
+.wrapper .container {
+  width: 100% !important;
+  max-width: 1300px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.header-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.header-social a {
+  color: black;
+  font-size: 20px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.pad {
+  margin: 15px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #1b3644 !important;
+  font-size: 16px;
+}
+.icon1 {
+  width: 20px;
+  height: 20px;
+}
+.bg-light {
+  background-color: white !important;
+  padding: 0px;
+  margin: 0px;
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  margin-right: 10px;
+}
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px 0px;
+  border-top: 1px solid black;
+  padding-right: 20px;
+}
+.location .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.location h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.row-loc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.box-loc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.box-loc svg {
+  font-size: 20px;
+}
+.box-loc h2,
+.box-loc a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0;
+}
+.mobile {
+  display: none;
+}
+.desktop {
+  display: flex;
+}
+@media screen and (max-width: 990px) {
+  .mobile {
+    display: flex;
+  }
+  .desktop {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .pad {
+    margin: 9px 20px;
+    padding: 0px;
+  }
+  .location {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    padding: 20px 0px;
+    justify-content: center;
+    height: auto;
+  }
+  .header-social {
+    width: 100%;
+    gap: 20px;
+  }
+  .row-loc {
+    flex-direction: column;
+  }
+  .header-social a {
+    font-size: 23px;
+  }
+}
